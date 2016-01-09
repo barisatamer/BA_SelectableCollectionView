@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BA_SelectableCollectionView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <BA_SelectableCollectionViewDelegate, BA_SelectableCollectionViewDataSource>
 
+@property (weak, nonatomic) IBOutlet BA_SelectableCollectionView *collectionView;
 
 @end
 

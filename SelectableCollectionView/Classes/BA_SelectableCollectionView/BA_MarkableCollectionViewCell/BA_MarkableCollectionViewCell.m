@@ -49,7 +49,6 @@
                                                                      height)];
     _checkMarkView.hidden = YES;
     [self addSubview:_checkMarkView];
-    
 }
 
 /**
